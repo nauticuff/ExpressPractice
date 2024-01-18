@@ -141,3 +141,7 @@ app.post('/car', async (req, res) => {
     deleted_flag
   });
 })
+
+app.listen(port, () => {
+  console.log(`server started at http://localhost:${port}`);
+});
